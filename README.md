@@ -1,9 +1,9 @@
-## Basic tool for (gently) scraping property listings from Dutch housing site [Funda.nl](http://www.funda.nl), written in Python using Selenium.
+Scraping www.funda.nl
 
 Please note:
 
 
-- funda.nl seems to use the anti-scraping services of Distil Networks so when running this scraper you will have to manually pass a Captcha every now and then
+- funda.nl seems to use the anti-scraping services of Distil Networks so when running this scraper you will have to manually pass a      Captcha every now and then
 - this tool is structured in a such a way that it gently / ethically scrapes the pages it encounters (in other words, scraping data will take a while given the numerous "sleep" intervals embedded in the code)
 - you will have to point the init_browser function to the local path of your webdriver (through the file_path variable)
 
