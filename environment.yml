@@ -1,0 +1,4 @@
+name: test_scraper
+dependencies:
+  - pandas
+  - selenium
